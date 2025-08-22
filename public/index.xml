@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CMav Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on CMav Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Jul 2025 16:32:05 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>my first</title>
+      <link>http://localhost:1313/posts/personal/first_post/</link>
+      <pubDate>Sun, 20 Jul 2025 16:32:05 +0100</pubDate>
+      <guid>http://localhost:1313/posts/personal/first_post/</guid>
+      <description>&lt;p&gt;This is the &lt;strong&gt;start&lt;/strong&gt; of a very eventful blogging journey for &lt;em&gt;moir&lt;/em&gt;.&#xA;Visit &lt;a href=&#34;https://google.com&#34;&gt;bye&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

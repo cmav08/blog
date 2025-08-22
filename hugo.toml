@@ -1,0 +1,40 @@
+baseURL = 'https://cmav08.github.io/'
+languageCode = 'en-us'
+title = 'CMav Blog'
+theme = 'archie'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+[params]
+	mode="dark"
+	useCDN=false
+	subtitle = "Domain Expansion: pages of a thousand ideas"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/c1rcu1tmaver1ck"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
