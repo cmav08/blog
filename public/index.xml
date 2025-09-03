@@ -16,11 +16,32 @@
       <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/linus.jpeg&#34;&#xA;    alt=&#34;A picture of Linus Torvalds from wikipedia&#34; width=&#34;303&#34; height=&#34;319&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Linus Torvalds&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/ada.jpg&#34;&#xA;    alt=&#34;A picture of Ada Lovelace from wikipedia&#34; width=&#34;303&#34; height=&#34;319&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Ada Lovelace&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Recently, I was working on a project which involved reporting on a major historical figure. Naturally, I took it as an opportunity to research two figures who I had always been intrigued by; Ada Lovelace and Linus Torvalds.&lt;/p&gt;&#xA;&lt;p&gt;Let me start by saying, they are absolute f**king legends. Both started out their interests in their early years, and their contribution to the field of computer science is unparalleled by only a few.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>My thoughts on the african AI space</title>
+      <link>http://localhost:1313/posts/personal/my_thoughts_on_the_african_ai_space/</link>
+      <pubDate>Mon, 21 Jul 2025 21:00:35 +0100</pubDate>
+      <guid>http://localhost:1313/posts/personal/my_thoughts_on_the_african_ai_space/</guid>
+      <description>&lt;p&gt;At the moment, there&amp;rsquo;s certainly a lot of hype around Large Language Models. And for good reasons, they&amp;rsquo;ve unlocked several possibilities including text generation, advanced NLP, and who can forget agentic AI through JSON resopnses :|). However, a more overlooked but equally important area are the TTS and ASR models.&lt;/p&gt;&#xA;&lt;p&gt;Apart from having the capacity to perform tasks more natural to the way we humans interact(through speech and listening), it can also bridge more gaps between non-technical individuals and technology products.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GWH</title>
+      <link>http://localhost:1313/posts/personal/gwh/</link>
+      <pubDate>Sun, 20 Jul 2025 17:11:17 +0100</pubDate>
+      <guid>http://localhost:1313/posts/personal/gwh/</guid>
+      <description>&lt;p&gt;At the moment I am supposed to complete a feature for my team. It took me a while to trace my issues, but I am enjoying how much I have to learn. The whole team has been really supportive, especially my team lead, Athena. That is why I will not let them down and put in my best work because they deserve the best, and I must mandate the best out of myself everytime. Exciting times ahead.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>my first</title>
       <link>http://localhost:1313/posts/personal/first_post/</link>
       <pubDate>Sun, 20 Jul 2025 16:32:05 +0100</pubDate>
       <guid>http://localhost:1313/posts/personal/first_post/</guid>
       <description>&lt;p&gt;This is the &lt;strong&gt;start&lt;/strong&gt; of a very eventful blogging journey for &lt;em&gt;moir&lt;/em&gt;.&#xA;Visit &lt;a href=&#34;https://google.com&#34;&gt;bye&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/personal/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/personal/about/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
