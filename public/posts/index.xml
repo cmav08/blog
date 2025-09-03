@@ -6,8 +6,15 @@
     <description>Recent content in Posts on CMav Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Jul 2025 16:32:05 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jul 2025 20:32:40 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ada_and_linus</title>
+      <link>http://localhost:1313/posts/personal/ada_and_linus/</link>
+      <pubDate>Sun, 27 Jul 2025 20:32:40 +0100</pubDate>
+      <guid>http://localhost:1313/posts/personal/ada_and_linus/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;{{ $image := .Resources.GetMatch &amp;ldquo;linus.jpeg&amp;rdquo; }}&#xA;Recently, I was working on a project which involved reporting on a major historical figure. Naturally, I took it as an opportunity to research two figures who I had always been intrigued by; Ada Lovelace and Linus Torvalds.&lt;/p&gt;&#xA;&lt;p&gt;Let me start by saying, they are absolute f**king legends. Both started out their interests in their early years, and their contribution to the field of computer science is unparalleled by only a few.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>my first</title>
       <link>http://localhost:1313/posts/personal/first_post/</link>

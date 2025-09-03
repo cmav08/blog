@@ -3,12 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-20T16:32:05+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/personal/first_post/</loc>
-    <lastmod>2025-07-20T16:32:05+01:00</lastmod>
+    <lastmod>2025-08-31T19:52:44+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-08-31T19:52:44+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2025-08-29T17:07:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/personal/ada_and_linus/</loc>
+    <lastmod>2025-07-27T20:32:40+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/personal/first_post/</loc>
     <lastmod>2025-07-20T16:32:05+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
