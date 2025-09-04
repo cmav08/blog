@@ -6,14 +6,28 @@
     <description>Recent content in Posts on CMav Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Jul 2025 20:32:40 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 12 Aug 2025 01:28:10 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My greatest discovery</title>
+      <link>http://localhost:1313/posts/personal/my_greatest_discovery/</link>
+      <pubDate>Tue, 12 Aug 2025 01:28:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/personal/my_greatest_discovery/</guid>
+      <description>&lt;p&gt;As someone keen on learning a lot, I have a habit of going down rabbit holes until I understand how certain concepts or systems work. This usually leads me to some interesting sources of information, and in this case I was pretty amazed. It all started when I was researching Instagram&amp;rsquo;s usage of django and stumbled upon a &lt;a href=&#34;https://www.reddit.com/r/django/comments/i3zyx2/does_instagram_still_run_on_django/&#34;&gt;reddit post&lt;/a&gt; from 2019 which had a similar topic. I then found a redditor in the comment referencing a blog which was supposed to explain the architecture of Instagram&amp;rsquo;s server. Being inquinstive, I clicked the link to follow it and to my surprise it took me to a &lt;a href=&#34;https://instagram-engineering.com/types-for-python-http-apis-an-instagram-story-d3c3a207fdb7&#34;&gt;medium blog&lt;/a&gt; which was written by the instagram team. I was initially skeptical, but after snooping around some more blog posts, I realised that it was the real deal.&#xA;So then I thought, &amp;ldquo;if instagram has this, there should be a host of other companies that also do so&amp;rdquo; So, I headed to ChatGPT to get some more info and sure enough, it responded with a list of companies. Some of which included;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ada_and_linus</title>
       <link>http://localhost:1313/posts/personal/ada_and_linus/</link>
       <pubDate>Sun, 27 Jul 2025 20:32:40 +0100</pubDate>
       <guid>http://localhost:1313/posts/personal/ada_and_linus/</guid>
       <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/linus.jpeg&#34;&#xA;    alt=&#34;A picture of Linus Torvalds from wikipedia&#34; width=&#34;303&#34; height=&#34;319&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Linus Torvalds&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/ada.jpg&#34;&#xA;    alt=&#34;A picture of Ada Lovelace from wikipedia&#34; width=&#34;303&#34; height=&#34;319&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Ada Lovelace&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Recently, I was working on a project which involved reporting on a major historical figure. Naturally, I took it as an opportunity to research two figures who I had always been intrigued by; Ada Lovelace and Linus Torvalds.&lt;/p&gt;&#xA;&lt;p&gt;Let me start by saying, they are absolute f**king legends. Both started out their interests in their early years, and their contribution to the field of computer science is unparalleled by only a few.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My thoughts on the african AI space</title>
+      <link>http://localhost:1313/posts/personal/my_thoughts_on_the_african_ai_space/</link>
+      <pubDate>Mon, 21 Jul 2025 21:00:35 +0100</pubDate>
+      <guid>http://localhost:1313/posts/personal/my_thoughts_on_the_african_ai_space/</guid>
+      <description>&lt;p&gt;At the moment, there&amp;rsquo;s certainly a lot of hype around Large Language Models. And for good reasons, they&amp;rsquo;ve unlocked several possibilities including text generation, advanced NLP, and who can forget agentic AI through JSON resopnses :|). However, a more overlooked but equally important area are the TTS and ASR models.&lt;/p&gt;&#xA;&lt;p&gt;Apart from having the capacity to perform tasks more natural to the way we humans interact(through speech and listening), it can also bridge more gaps between non-technical individuals and technology products.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GWH</title>

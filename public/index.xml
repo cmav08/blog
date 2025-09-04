@@ -6,8 +6,15 @@
     <description>Recent content on CMav Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Jul 2025 20:32:40 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 12 Aug 2025 01:28:10 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My greatest discovery</title>
+      <link>http://localhost:1313/posts/personal/my_greatest_discovery/</link>
+      <pubDate>Tue, 12 Aug 2025 01:28:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/personal/my_greatest_discovery/</guid>
+      <description>&lt;p&gt;As someone keen on learning a lot, I have a habit of going down rabbit holes until I understand how certain concepts or systems work. This usually leads me to some interesting sources of information, and in this case I was pretty amazed. It all started when I was researching Instagram&amp;rsquo;s usage of django and stumbled upon a &lt;a href=&#34;https://www.reddit.com/r/django/comments/i3zyx2/does_instagram_still_run_on_django/&#34;&gt;reddit post&lt;/a&gt; from 2019 which had a similar topic. I then found a redditor in the comment referencing a blog which was supposed to explain the architecture of Instagram&amp;rsquo;s server. Being inquinstive, I clicked the link to follow it and to my surprise it took me to a &lt;a href=&#34;https://instagram-engineering.com/types-for-python-http-apis-an-instagram-story-d3c3a207fdb7&#34;&gt;medium blog&lt;/a&gt; which was written by the instagram team. I was initially skeptical, but after snooping around some more blog posts, I realised that it was the real deal.&#xA;So then I thought, &amp;ldquo;if instagram has this, there should be a host of other companies that also do so&amp;rdquo; So, I headed to ChatGPT to get some more info and sure enough, it responded with a list of companies. Some of which included;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ada_and_linus</title>
       <link>http://localhost:1313/posts/personal/ada_and_linus/</link>
