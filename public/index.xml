@@ -6,8 +6,15 @@
     <description>Recent content on CMav Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Aug 2025 01:28:10 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 14:16:40 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 09 Sep 2025 14:16:40 +0100</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Domain Expansion: Greenland of ten thousand concepts&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Congratulations reader😎, you have reached the domain of CMav.&lt;/p&gt;&#xA;&lt;p&gt;In this blog, I nerd out about fields that interest me, ranging from electronics, robotics, AI models, football(soccer) and programming languages. More importantly, it is an outlet for me to share interesting, educational, informative, and technical articles that may help you, the reader, easily augment your daily lives with technology.&lt;/p&gt;&#xA;&lt;p&gt;Some of the topics that you might come across are:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My greatest discovery</title>
       <link>http://localhost:1313/posts/personal/my_greatest_discovery/</link>
