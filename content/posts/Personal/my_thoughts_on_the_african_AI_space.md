@@ -1,8 +1,9 @@
-+++
-date = '2025-07-21T21:00:35+01:00'
-draft = false
-title = 'My thoughts on the african AI space'
-+++
+---
+date: '2025-07-21T21:00:35+01:00'
+draft: false
+title: 'My thoughts on the african AI space'
+tags: [Opinions]
+---
 
 At the moment, there's certainly a lot of hype around Large Language Models. And for good reasons, they've unlocked several possibilities including text generation, advanced NLP, and who can forget agentic AI through JSON resopnses :|). However, a more overlooked but equally important area are the TTS and ASR models.
 

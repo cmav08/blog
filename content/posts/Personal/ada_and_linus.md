@@ -1,8 +1,9 @@
-+++
-date = '2025-07-27T20:32:40+01:00'
-draft = false
-title = 'Ada_and_linus'
-+++
+---
+date: 2025-07-27T20:32:40+01:00
+draft: false
+title: 'Ada and linus'
+tags: [Opinions]
+---
 
 {{< figure src="/images/linus.jpeg" title="Linus Torvalds" alt="A picture of Linus Torvalds from wikipedia" width="303" height="319" >}}
 {{< figure src="/images/ada.jpg" title="Ada Lovelace" alt="A picture of Ada Lovelace from wikipedia" width="303" height="319" >}}
