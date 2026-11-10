@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on CMav Blog</title>
+    <link>http://localhost:1313/tags/ai/</link>
+    <description>Recent content in AI on CMav Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Jul 2025 21:59:22 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro</title>
+      <link>http://localhost:1313/posts/tutorial/chess_buddy/1_intro/</link>
+      <pubDate>Wed, 23 Jul 2025 21:59:22 +0100</pubDate>
+      <guid>http://localhost:1313/posts/tutorial/chess_buddy/1_intro/</guid>
+      <description>&lt;p&gt;Langgraph has grown to one of the most important frameworks in the artificial Intelligence space. It&amp;rsquo;s parent, langchain was initially created for developers to create applications which require augmentation of LLMs with various data sources.&lt;/p&gt;&#xA;&lt;p&gt;Langgraph, however, has quickly become popular framework ifor it&amp;rsquo;s low-level abstractions and it&amp;rsquo;s versatility in creating applications involving workflows to AI agents.&lt;/p&gt;&#xA;&lt;p&gt;In this tutorial series, I will be creating a chess chatbot similar to &amp;ldquo;Chess Master&amp;rdquo; on Google&amp;rsquo;s gemini. I believe it is a great project that will allow us to address all various aspects of the framework, while still being a fun and interesting use case.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

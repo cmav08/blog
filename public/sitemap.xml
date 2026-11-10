@@ -2,14 +2,68 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/technical/a_true_test_of_multimodality/</loc>
+    <lastmod>2026-07-16T10:41:31+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-11T21:45:25+01:00</lastmod>
+    <lastmod>2026-07-16T10:41:31+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-07-16T10:41:31+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tutorial/building_a_google_drive_document_processing_pipeline_with_redis_queue/</loc>
+    <lastmod>2026-07-03T22:00:14+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/personal/i_hope/</loc>
+    <lastmod>2026-07-03T22:00:14+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/life/</loc>
+    <lastmod>2026-05-23T10:37:49+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/personal/stuck_in_a_local_minima/</loc>
+    <lastmod>2026-05-23T10:37:49+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-05-23T10:37:49+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/technical/setting_up_openclaw_on_gcp/</loc>
+    <lastmod>2026-05-09T20:05:06+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/technical/bypassing_phantombuster_free_plan_export_limit/</loc>
+    <lastmod>2026-01-17T00:23:10+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/technical/ffmpeg/ffmpeg_audio_use_cases/</loc>
     <lastmod>2025-09-11T21:45:25+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tutorial/ffmpeg/ffmpeg_video_use_cases/</loc>
+    <lastmod>2025-09-11T21:44:30+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tutorial/ffmpeg/ffmpeg_overview/</loc>
+    <lastmod>2025-09-11T21:42:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/technical/ffmpeg_use_cases/</loc>
+    <lastmod>2025-09-09T20:43:06+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-09-09T14:16:40+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/technical/the_transformer/</loc>
+    <lastmod>2025-09-04T12:25:12+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tutorial/chess_buddy/memory/</loc>
+    <lastmod>2025-08-31T19:52:44+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/technical/redux_tutorial/</loc>
+    <lastmod>2025-08-29T16:06:57+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/technical/the_evolution_of_rag/</loc>
+    <lastmod>2025-08-25T13:27:10+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/technical/how_is_audio_data_transformed_and_recovered/</loc>
+    <lastmod>2025-08-25T13:22:44+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tutorial/building_an_ai_agent/</loc>
+    <lastmod>2025-08-25T13:16:27+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/experiences/</loc>
     <lastmod>2025-08-12T01:28:10+01:00</lastmod>
@@ -17,14 +71,38 @@
     <loc>http://localhost:1313/posts/personal/my_greatest_discovery/</loc>
     <lastmod>2025-08-12T01:28:10+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-08-12T01:28:10+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/personal/ada_and_linus/</loc>
     <lastmod>2025-07-27T20:32:40+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/opinions/</loc>
     <lastmod>2025-07-27T20:32:40+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/technical/how_low_can_one_go/</loc>
+    <lastmod>2025-07-27T20:27:34+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tutorial/chess_buddy/3_graph_state/</loc>
+    <lastmod>2025-07-24T22:39:55+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/personal/wro/</loc>
+    <lastmod>2025-07-24T11:46:59+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/technical/the_super_duper_herts/</loc>
+    <lastmod>2025-07-24T11:35:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tutorial/chess_buddy/2_augmented_llm/</loc>
+    <lastmod>2025-07-23T22:34:25+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2025-07-23T21:59:22+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai-agent/</loc>
+    <lastmod>2025-07-23T21:59:22+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tutorial/chess_buddy/1_intro/</loc>
+    <lastmod>2025-07-23T21:59:22+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/personal/the_unmarked_cohort_of_programmers/</loc>
+    <lastmod>2025-07-22T21:34:41+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/personal/my_thoughts_on_the_african_ai_space/</loc>
     <lastmod>2025-07-21T21:00:35+01:00</lastmod>
@@ -38,5 +116,13 @@
     <loc>http://localhost:1313/posts/personal/about/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/tutorial/chess_buddy/5_chat_ui/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/tutorial/chess_buddy/7_final/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/tutorial/chess_buddy/4_nodes_and_edges/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/tutorial/chess_buddy/6_tests/</loc>
   </url>
 </urlset>

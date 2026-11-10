@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life on CMav Blog</title>
+    <link>http://localhost:1313/tags/life/</link>
+    <description>Recent content in Life on CMav Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 May 2026 10:37:49 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stuck in a local minimum</title>
+      <link>http://localhost:1313/posts/personal/stuck_in_a_local_minima/</link>
+      <pubDate>Sat, 23 May 2026 10:37:49 +0100</pubDate>
+      <guid>http://localhost:1313/posts/personal/stuck_in_a_local_minima/</guid>
+      <description>&lt;p&gt;For about a year now, I&amp;rsquo;ve felt this constant gnawing at my soul that I am stuck in a &lt;em&gt;local minimum&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a term that can be found in fields like &lt;a href=&#34;https://en.wikipedia.org/wiki/Deep_learning&#34;&gt;deep learning&lt;/a&gt; (it&amp;rsquo;s actually implemented from calculus but we&amp;rsquo;ll stick with the deep learning angle)&lt;/p&gt;&#xA;&lt;p&gt;Here, during the training of a neural network model, the goal is to ensure that,  giving an input &lt;code&gt;x&lt;/code&gt;, the difference between the prediction made by the model &lt;code&gt;y&lt;/code&gt; and the actual value of the output is as low as possible.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Ffmpeg_use_cases_for_audio - CMav Blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="FFmpeg is one of the most important tools used today
+But to truly understand how you can use fffmpeg in your daily live. You should know some brief concepts and knowledge to help you in making informed decisions when working with audio data.
+
+Audio extraction from video
+Converting from one audio format to another
+Resampling
+
+
+
+dd
+
+Video
+
+Decoding, encoding, transcoding: Supports almost every major codec (H.264, HEVC, VP9, AV1, MPEG-2, ProRes, etc.)." />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="http://localhost:1313/posts/technical/ffmpeg_use_cases/">
+  <meta property="og:site_name" content="CMav Blog">
+  <meta property="og:title" content="Ffmpeg_use_cases_for_audio">
+  <meta property="og:description" content="FFmpeg is one of the most important tools used today
+But to truly understand how you can use fffmpeg in your daily live. You should know some brief concepts and knowledge to help you in making informed decisions when working with audio data.
+Audio extraction from video Converting from one audio format to another Resampling dd
+Video Decoding, encoding, transcoding: Supports almost every major codec (H.264, HEVC, VP9, AV1, MPEG-2, ProRes, etc.).">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-09-09T20:43:06+01:00">
+    <meta property="article:modified_time" content="2025-09-09T20:43:06+01:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ffmpeg_use_cases_for_audio">
+  <meta name="twitter:description" content="FFmpeg is one of the most important tools used today
+But to truly understand how you can use fffmpeg in your daily live. You should know some brief concepts and knowledge to help you in making informed decisions when working with audio data.
+Audio extraction from video Converting from one audio format to another Resampling dd
+Video Decoding, encoding, transcoding: Supports almost every major codec (H.264, HEVC, VP9, AV1, MPEG-2, ProRes, etc.).">
+
+        <link href="http://localhost:1313/css/fonts.11a1877508139eac0b5b4852ceb110c35641b3533321e66e39149e901ed5756b.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.e08e3d47ef734c0d298ed0fb46ed50640341570139eb362f34ac2720f01a4f58.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.a6ecc2a65313cfac5f20a92af993901cecda7fc68011af46a4c24abe67a922f7.css"   />
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:1313/">CMav Blog</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">Ffmpeg_use_cases_for_audio</h1>
+          <div class="meta">Posted on Sep 9, 2025 <span class="draft-label">DRAFT</span> </div>
+        </div>
+        
+        <section class="body">
+          <p>FFmpeg is one of the most important tools used today</p>
+<p>But to truly understand how you can use fffmpeg in your daily live. You should know some brief concepts and knowledge to help you in making informed decisions when working with audio data.</p>
+<ul>
+<li>Audio extraction from video</li>
+<li>Converting from one audio format to another</li>
+<li>Resampling</li>
+<li></li>
+<li></li>
+</ul>
+<p>dd</p>
+<ol>
+<li>Video</li>
+</ol>
+<p>Decoding, encoding, transcoding: Supports almost every major codec (H.264, HEVC, VP9, AV1, MPEG-2, ProRes, etc.).</p>
+<p>Formats: MP4, MKV, AVI, MOV, FLV, WebM, etc.</p>
+<p>Operations: Cutting, trimming, scaling, cropping, filtering, stabilization, overlaying, generating thumbnails, extracting frames, etc.</p>
+<ol start="2">
+<li>Audio</li>
+</ol>
+<p>Decoding/encoding: AAC, MP3, Opus, Vorbis, FLAC, WAV, AMR, AC3, DTS, etc.</p>
+<p>Formats: MP3, WAV, OGG, M4A, AAC, etc.</p>
+<p>Operations: Extracting audio from video, mixing, resampling, volume adjustment, noise filtering, channel mapping, spectrogram generation, etc.</p>
+<ol start="3">
+<li>Subtitles &amp; Captions</li>
+</ol>
+<p>Formats: SRT, ASS/SSA, WebVTT, DVB subs, MOV text.</p>
+<p>Operations: Burning subtitles into video, extracting, converting between formats, synchronizing, overlaying styles.</p>
+<p>FFmpeg is a very versatile multimedia framework — it can process, convert, and analyze many different <strong>modalities of data</strong>. At a high level, you can work with:</p>
+<h3 id="1-video">1. <strong>Video</strong></h3>
+<ul>
+<li><strong>Decoding, encoding, transcoding</strong>: Supports almost every major codec (H.264, HEVC, VP9, AV1, MPEG-2, ProRes, etc.).</li>
+<li><strong>Formats</strong>: MP4, MKV, AVI, MOV, FLV, WebM, etc.</li>
+<li><strong>Operations</strong>: Cutting, trimming, scaling, cropping, filtering, stabilization, overlaying, generating thumbnails, extracting frames, etc.</li>
+</ul>
+<h3 id="2-audio">2. <strong>Audio</strong></h3>
+<ul>
+<li><strong>Decoding/encoding</strong>: AAC, MP3, Opus, Vorbis, FLAC, WAV, AMR, AC3, DTS, etc.</li>
+<li><strong>Formats</strong>: MP3, WAV, OGG, M4A, AAC, etc.</li>
+<li><strong>Operations</strong>: Extracting audio from video, mixing, resampling, volume adjustment, noise filtering, channel mapping, spectrogram generation, etc.</li>
+</ul>
+<h3 id="3-subtitles--captions">3. <strong>Subtitles &amp; Captions</strong></h3>
+<ul>
+<li><strong>Formats</strong>: SRT, ASS/SSA, WebVTT, DVB subs, MOV text.</li>
+<li><strong>Operations</strong>: Burning subtitles into video, extracting, converting between formats, synchronizing, overlaying styles.</li>
+</ul>
+<h3 id="4-images--image-sequences">4. <strong>Images &amp; Image Sequences</strong></h3>
+<ul>
+<li><strong>Formats</strong>: JPEG, PNG, BMP, GIF, TIFF, WebP, EXR, etc.</li>
+<li><strong>Operations</strong>: Convert between formats, extract frames, generate GIFs, create videos from sequences of images.</li>
+</ul>
+<h3 id="5-metadata--containers">5. <strong>Metadata &amp; Containers</strong></h3>
+<ul>
+<li>Read, write, and manipulate <strong>container metadata</strong> (e.g., MP4, MKV tags).</li>
+<li>Embed and extract <strong>ID3 tags</strong> for audio.</li>
+<li>Stream and mux/demux multiple streams into a container.</li>
+</ul>
+<h3 id="6-streaming-data">6. <strong>Streaming Data</strong></h3>
+<ul>
+<li><strong>Protocols</strong>: RTMP, RTSP, HLS (m3u8), DASH, MPEG-TS, RTP, SRT, WebRTC (with patches).</li>
+<li>Can act as a <strong>server, client, or transcoder</strong> in real-time streaming scenarios.</li>
+</ul>
+<h3 id="7-dataattachment-streams">7. <strong>Data/Attachment Streams</strong></h3>
+<ul>
+<li>Some containers hold <strong>non-AV data</strong> like fonts (for ASS subs), cover art, chapters, or timed metadata streams (e.g., SCTE-35 ad markers). FFmpeg can extract and manipulate these too.</li>
+</ul>
+<hr>
+<p>🔑 <strong>In short</strong>: FFmpeg handles <strong>video, audio, images, subtitles, metadata, and streaming protocols</strong>, plus container-level attachments.</p>
+<p>Would you like me to make a <strong>structured table</strong> listing the data modality, supported formats/codecs, and common operations you can do with FFmpeg?</p>
+
+        </section>
+        <div class="post-tags">
+          
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/c1rcu1tmaver1ck" rel="me" title="GitHub"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+</svg></a><a class="border"></a></div>
+  <div class="footer-info">
+    2026  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+</div>
+    </body>
+</html>

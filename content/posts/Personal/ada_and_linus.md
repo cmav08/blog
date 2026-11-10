@@ -5,8 +5,8 @@ title: 'Ada and linus'
 tags: [Opinions]
 ---
 
-{{< figure src="/images/linus.jpeg" title="Linus Torvalds" alt="A picture of Linus Torvalds from wikipedia" width="303" height="319" >}}
-{{< figure src="/images/ada.jpg" title="Ada Lovelace" alt="A picture of Ada Lovelace from wikipedia" width="303" height="319" >}}
+{{< site-figure src="images/linus.jpeg" title="Linus Torvalds" alt="A picture of Linus Torvalds from wikipedia" width="303" height="319" >}}
+{{< site-figure src="images/ada.jpg" title="Ada Lovelace" alt="A picture of Ada Lovelace from wikipedia" width="303" height="319" >}}
 
 Recently, I was working on a project which involved reporting on a major historical figure. Naturally, I took it as an opportunity to research two figures who I had always been intrigued by; Ada Lovelace and Linus Torvalds.
 

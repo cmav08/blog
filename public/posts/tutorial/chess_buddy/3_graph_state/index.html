@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>3_graph_state - CMav Blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="In our previous part, I discussed***.
+Now we can create the graph of our app. This is the most important part of the project*.
+Langgraph provides a low-level architecure through the graph API to build agents and workflows. This API consists of three components:
+
+State: This is a schema that defines all the necessary data that will need to be tracked throughout our workflow/agent. For example: if we are to define a schema for a research agent. It will act as a single source of truth for our application.
+
+class Schema(MessagesState):
+    board: Board
+    tool_list: list[BaseTool]
+    llm: Any
+    played: bool = False
+In the above, we defined two schemas. One to handle our input/output data, and the other to handle the data passed between the internal nodes." />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="http://localhost:1313/posts/tutorial/chess_buddy/3_graph_state/">
+  <meta property="og:site_name" content="CMav Blog">
+  <meta property="og:title" content="3_graph_state">
+  <meta property="og:description" content="In our previous part, I discussed***. Now we can create the graph of our app. This is the most important part of the project*. Langgraph provides a low-level architecure through the graph API to build agents and workflows. This API consists of three components:
+State: This is a schema that defines all the necessary data that will need to be tracked throughout our workflow/agent. For example: if we are to define a schema for a research agent. It will act as a single source of truth for our application. class Schema(MessagesState):board: Boardtool_list: list[BaseTool]llm: Anyplayed: bool = False In the above, we defined two schemas. One to handle our input/output data, and the other to handle the data passed between the internal nodes.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-07-24T22:39:55+01:00">
+    <meta property="article:modified_time" content="2025-07-24T22:39:55+01:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="3_graph_state">
+  <meta name="twitter:description" content="In our previous part, I discussed***. Now we can create the graph of our app. This is the most important part of the project*. Langgraph provides a low-level architecure through the graph API to build agents and workflows. This API consists of three components:
+State: This is a schema that defines all the necessary data that will need to be tracked throughout our workflow/agent. For example: if we are to define a schema for a research agent. It will act as a single source of truth for our application. class Schema(MessagesState):board: Boardtool_list: list[BaseTool]llm: Anyplayed: bool = False In the above, we defined two schemas. One to handle our input/output data, and the other to handle the data passed between the internal nodes.">
+
+        <link href="http://localhost:1313/css/fonts.11a1877508139eac0b5b4852ceb110c35641b3533321e66e39149e901ed5756b.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.e08e3d47ef734c0d298ed0fb46ed50640341570139eb362f34ac2720f01a4f58.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.a6ecc2a65313cfac5f20a92af993901cecda7fc68011af46a4c24abe67a922f7.css"   />
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:1313/">CMav Blog</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">3_graph_state</h1>
+          <div class="meta">Posted on Jul 24, 2025 <span class="draft-label">DRAFT</span> </div>
+        </div>
+        
+        <section class="body">
+          <p>In our previous part, I discussed***.
+Now we can create the graph of our app. This is the most important part of the project*.
+Langgraph provides a low-level architecure through the graph API to build agents and workflows. This API consists of three components:</p>
+<ul>
+<li>State: This is a schema that defines all the necessary data that will need to be tracked throughout our workflow/agent. For example: if we are to define a schema for a research agent. It will act as a single source of truth for our application.</li>
+</ul>
+<pre tabindex="0"><code>class Schema(MessagesState):
+    board: Board
+    tool_list: list[BaseTool]
+    llm: Any
+    played: bool = False
+</code></pre><p>In the above, we defined two schemas. One to handle our input/output data, and the other to handle the data passed between the internal nodes.</p>
+<ul>
+<li><code>board</code> represents a chess notation which is valid.</li>
+<li><code>tool_list</code> represents extra data that is necessary for a good final response.</li>
+<li><code>llm</code>:</li>
+<li><code>played</code></li>
+</ul>
+<p>One more unseen part of the schema is <code>messages</code> which is included through the <code>MessagesState</code> class.</p>
+<p>Though we can generally store all our data in one schema. Langgraph also enables us to seperate internal data that is passed between nodes from the overall input and output data. We won&rsquo;t be needing this in our case.</p>
+<p>Then we move on to the graph which mainly constitutes two types of components:</p>
+<ul>
+<li>
+<p>Nodes: These are simply functions that perform specific operations on the state and return an updated state.</p>
+</li>
+<li>
+<p>Edges: These are functions that directs the flow of sequences of nodes based on pre-defined conditions()
+They act as routers between internal nodes.</p>
+</li>
+</ul>
+<p>Thanks to this low-level architecture, we can visualize our workflow/agent without having to write the main logic of our code yet.</p>
+<pre tabindex="0"><code># Node 1
+def make_decision(state: Schema):
+    # Calls LLM with tools
+    # Returns Messages
+    # Sets the play state, return_message and player_notation depending on answer
+    pass
+
+# Node 2
+def run_tool(state: Schema):
+    # Takes player notation, and plays it
+    # Takes answer from it and checks if computer answer is in it to
+    # Calls play log updater with player and computer answer
+    # Sets the display state
+    pass
+
+
+# Edge 1
+def route_decision(state: Schema):
+    # Checks why if the play is invalid, by checking if there are still legal moves in the list to see if the notaion was wrong
+    # Checks the board state
+    # returns reason depending on
+    pass
+
+# Node 3
+def final_response(state: Schema):
+    # Check board state and sees if there is still valid moves
+    # If no, it checks the board state and sers the extra info
+    pass
+</code></pre><p>As you can see above, our graph consists of 3 nodes and 1 edges.</p>
+<p>Now, we can move to building our graph. Building a graph involves adding nodes and edges in the sequence that is intended to achieve our application&rsquo;s objectives. In the below</p>
+<pre tabindex="0"><code>builder = StateGraph(Schema)
+builder.add_node(&#34;make_decision&#34;, make_decision)
+builder.add_node(&#34;run_tool&#34;, run_tool)
+builder.add_node(&#34;final_response&#34;, final_response)
+
+builder.add_edge(START, &#34;make_decision&#34;)
+builder.add_conditional_edges(
+    &#34;make_decision&#34;,
+    route_decision,
+    {&#34;run_tool&#34;: &#34;run_tool&#34;, END: END},
+)
+builder.add_edge(&#34;run_tool&#34;, &#34;final_response&#34;)
+builder.add_edge(&#34;final_response&#34;, END)
+chess_graph = builder.compile()
+</code></pre><p>Langgraph also provides a method that allows us to convert our graph into an object which can be visualized by the <code>Image</code> class of the<code>Ipython</code> module(you can install it using pip).</p>
+<pre tabindex="0"><code>img_obj=Image(graph.get_graph().draw_mermaid_png())
+if hasattr(img_obj, &#39;data&#39;):
+    with open(&#39;graph_image.png&#39;, &#39;wb&#39;) as f:
+        f.write(img_obj.data)
+</code></pre><p>You should see an image similar to the below saved in the same directory as you file.</p>
+<p><img src="/images/saved_image.png" alt="Diagram of the system"></p>
+<p>Before we create our graph, we must have a clear understanding of how we expect data to flow through the agent/workflow and what processes transform the data between the input and output.</p>
+
+        </section>
+        <div class="post-tags">
+          
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/c1rcu1tmaver1ck" rel="me" title="GitHub"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+</svg></a><a class="border"></a></div>
+  <div class="footer-info">
+    2026  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+</div>
+    </body>
+</html>

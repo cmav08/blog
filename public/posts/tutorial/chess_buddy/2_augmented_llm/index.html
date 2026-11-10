@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>2_augmented_llm - CMav Blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="ht into creating our agent, it is important to address th
+Though we could go rige augmented llm.
+We can augment our llm by providing it with tools, and data sources it will need to perform the tasks we ask of it. Thankfully, langchain already provides abstractions for us to this. In this section, we will create the tools that we need for chess buddy and test them.
+Create a folder named class_tools and for each file place." />
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="http://localhost:1313/posts/tutorial/chess_buddy/2_augmented_llm/">
+  <meta property="og:site_name" content="CMav Blog">
+  <meta property="og:title" content="2_augmented_llm">
+  <meta property="og:description" content="ht into creating our agent, it is important to address th Though we could go rige augmented llm. We can augment our llm by providing it with tools, and data sources it will need to perform the tasks we ask of it. Thankfully, langchain already provides abstractions for us to this. In this section, we will create the tools that we need for chess buddy and test them.
+Create a folder named class_tools and for each file place.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-07-23T22:34:25+01:00">
+    <meta property="article:modified_time" content="2025-07-23T22:34:25+01:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="2_augmented_llm">
+  <meta name="twitter:description" content="ht into creating our agent, it is important to address th Though we could go rige augmented llm. We can augment our llm by providing it with tools, and data sources it will need to perform the tasks we ask of it. Thankfully, langchain already provides abstractions for us to this. In this section, we will create the tools that we need for chess buddy and test them.
+Create a folder named class_tools and for each file place.">
+
+        <link href="http://localhost:1313/css/fonts.11a1877508139eac0b5b4852ceb110c35641b3533321e66e39149e901ed5756b.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.e08e3d47ef734c0d298ed0fb46ed50640341570139eb362f34ac2720f01a4f58.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.a6ecc2a65313cfac5f20a92af993901cecda7fc68011af46a4c24abe67a922f7.css"   />
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:1313/">CMav Blog</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">2_augmented_llm</h1>
+          <div class="meta">Posted on Jul 23, 2025 <span class="draft-label">DRAFT</span> </div>
+        </div>
+        
+        <section class="body">
+          <p>ht into creating our agent, it is important to address th
+Though we could go rige augmented llm.
+We can augment our llm by providing it with tools, and data sources it will need to perform the tasks we ask of it. Thankfully, langchain already provides abstractions for us to this. In this section, we will create the tools that we need for chess buddy and test them.</p>
+<p>Create a folder named <code>class_tools</code> and for each file place.</p>
+<pre tabindex="0"><code># DrawTool.py
+from .chess_tool import ChessTool
+from typing import Type
+import random
+from pydantic import BaseModel
+from .my_setup import my_board
+
+    
+class DrawTool(ChessTool):
+    name:str = &#34;DrawTool&#34;
+    description:str = &#34;&#34;&#34;
+    Chooses whether to accept or reject a draw offer. If accepted, the board is reset.
+    
+    Returns:
+        str: A message confirming acceptance or rejection of draw offer.
+        
+    Example call:
+        DrawTool()    
+    &#34;&#34;&#34;
+    args_schema:Type[BaseModel] | None = None
+    
+    def _run(self)-&gt;str:
+        choice = random.randint(0,100)
+        if choice &gt; 50:
+            self.board.reset()
+            return &#34;Draw accepted and board reset&#34;
+        else:
+            return &#34;Draw rejected&#34;
+
+
+if __name__==&#34;__main__&#34;:
+    examples = [
+        &#34;Would you love to make this a truce?&#34;,
+        &#34;Let&#39;s keep playing, I want to win&#34;,
+        &#34;Let&#39;s make it a draw, shall we?&#34;,
+        &#34;Let&#39;s stop playing, I resign&#34;,
+        &#34;I want a draw.&#34;,
+],
+    
+    for example in examples:
+        result = DrawTool(board=my_board).invoke(example)
+        with open(&#34;test_log.txt&#34;, &#34;a&#34;, encoding=&#34;utf-8&#34;) as f:
+            base_message = f&#34;\nExample: {example} \n&#34;
+            f.write(base_message)
+            f.write(str(result))
+</code></pre><pre tabindex="0"><code># ResignTool
+class ResignTool(ChessTool):
+    name:str = &#34;ResignTool&#34;
+    description:str = &#34;&#34;&#34;
+    This function resets the chess board if a user explicitly decides to resign.
+    
+    Returns:
+        str: A string confirming that the game has been restarted
+        
+    Example call:
+        ResignTool()
+    &#34;&#34;&#34;
+    args_schema:Type[BaseModel] | None = None
+        
+    def _run(self)-&gt;str:
+        self.board.reset()
+        return &#34;User has resigned and the game has been restarted&#34;
+    
+
+if __name__==&#34;__main__&#34;:
+    examples = [&#34;I forfeit this match, and I am angry with you.&#34;,
+               &#34;I give up boss.&#34;,
+               &#34;Hmm,I wonder what I need to play next&#34;,
+               &#34;Let&#39;s keep playing, I&#39;m loving this.&#34;,
+               &#34;I resign.&#34;,
+]
+    
+    for example in examples:
+        result = ResignTool(board=my_board).invoke(example)
+        with open(&#34;test_log.txt&#34;, &#34;a&#34;, encoding=&#34;utf-8&#34;) as f:
+            base_message = f&#34;\nExample: {example} \n&#34;
+            f.write(base_message)
+            f.write(str(result))
+</code></pre>
+        </section>
+        <div class="post-tags">
+          
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/c1rcu1tmaver1ck" rel="me" title="GitHub"><svg class="feather">
+   <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+</svg></a><a class="border"></a></div>
+  <div class="footer-info">
+    2026  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+</div>
+    </body>
+</html>

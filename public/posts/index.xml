@@ -6,8 +6,120 @@
     <description>Recent content in Posts on CMav Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Aug 2025 01:28:10 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 10:41:31 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A true test of multimodality</title>
+      <link>http://localhost:1313/posts/technical/a_true_test_of_multimodality/</link>
+      <pubDate>Thu, 16 Jul 2026 10:41:31 +0000</pubDate>
+      <guid>http://localhost:1313/posts/technical/a_true_test_of_multimodality/</guid>
+      <description>&lt;p&gt;I carried out a test for multimodality across four different platforms, Chatgpt, Claude, Gemini and Grok.&lt;/p&gt;&#xA;&lt;p&gt;In this post we will rank them based on their ability to correctly identify each character featured in this AOT season 4 poster.&lt;/p&gt;&#xA;&lt;p&gt;In case you haven&amp;rsquo;t seen it before there are 15 characters listed in this poster&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Hange Zoe&lt;/li&gt;&#xA;&lt;li&gt;Sasha Blouse&lt;/li&gt;&#xA;&lt;li&gt;Connie Springer&lt;/li&gt;&#xA;&lt;li&gt;Jean Kirchstein&lt;/li&gt;&#xA;&lt;li&gt;Mikasa&lt;/li&gt;&#xA;&lt;li&gt;Levi Ackerman&lt;/li&gt;&#xA;&lt;li&gt;Armin Arlert&lt;/li&gt;&#xA;&lt;li&gt;Armoured Titan (Reiner Braun)&lt;/li&gt;&#xA;&lt;li&gt;Attack Titan (Eren Yeager)&lt;/li&gt;&#xA;&lt;li&gt;Falco Grice&lt;/li&gt;&#xA;&lt;li&gt;Gabi Braun&lt;/li&gt;&#xA;&lt;li&gt;Warhammer Titan (Laura Tybur)&lt;/li&gt;&#xA;&lt;li&gt;Jaw Titan (&lt;/li&gt;&#xA;&lt;li&gt;Cart Titan (Pieck)&lt;/li&gt;&#xA;&lt;li&gt;Beast Titan (Zeke Yeager)&#xA;As we can see, it&amp;rsquo;s a densly populated poster with all major known characters of that season, making it the perfect test of multimodality.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The criterias which are going to be used are:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building_a_gdrive_document_processing_pipeline_with_redis_queue_and_fastapi</title>
+      <link>http://localhost:1313/posts/tutorial/building_a_google_drive_document_processing_pipeline_with_redis_queue/</link>
+      <pubDate>Fri, 03 Jul 2026 22:00:14 +0100</pubDate>
+      <guid>http://localhost:1313/posts/tutorial/building_a_google_drive_document_processing_pipeline_with_redis_queue/</guid>
+      <description>&lt;p&gt;Table of Content&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Intro and Objective&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Project Setup and Installation&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Setting up Google Drive and Testing&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Setting up redis queue&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Creating a FastAPI App to encompass everything&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;intro-and-objectives&#34;&gt;Intro and Objectives&lt;/h2&gt;&#xA;&lt;p&gt;For most production grade systems, the difference between frequent server overload (or high latency) and seamless flow is a server that can handle multiple high-memory processes at a time.&lt;/p&gt;&#xA;&lt;p&gt;A common technique for achieving this seamlessness is through the use of a job queue to handle long-running or resource-intensive requests.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>i_hope</title>
+      <link>http://localhost:1313/posts/personal/i_hope/</link>
+      <pubDate>Fri, 03 Jul 2026 22:00:14 +0100</pubDate>
+      <guid>http://localhost:1313/posts/personal/i_hope/</guid>
+      <description>&lt;p&gt;Since the dawn of time, I have always felt my life&amp;rsquo;s mission is to help people. In the middle of this timeline, I also realized that the only way I could ever achieve this was to build my capacity.&#xA;So everytime in my head, after chasing some vain goal, I then remember what anything I do is for; to build capacity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stuck in a local minimum</title>
+      <link>http://localhost:1313/posts/personal/stuck_in_a_local_minima/</link>
+      <pubDate>Sat, 23 May 2026 10:37:49 +0100</pubDate>
+      <guid>http://localhost:1313/posts/personal/stuck_in_a_local_minima/</guid>
+      <description>&lt;p&gt;For about a year now, I&amp;rsquo;ve felt this constant gnawing at my soul that I am stuck in a &lt;em&gt;local minimum&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a term that can be found in fields like &lt;a href=&#34;https://en.wikipedia.org/wiki/Deep_learning&#34;&gt;deep learning&lt;/a&gt; (it&amp;rsquo;s actually implemented from calculus but we&amp;rsquo;ll stick with the deep learning angle)&lt;/p&gt;&#xA;&lt;p&gt;Here, during the training of a neural network model, the goal is to ensure that,  giving an input &lt;code&gt;x&lt;/code&gt;, the difference between the prediction made by the model &lt;code&gt;y&lt;/code&gt; and the actual value of the output is as low as possible.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>setting_up_openclaw_on_GCP.md</title>
+      <link>http://localhost:1313/posts/technical/setting_up_openclaw_on_gcp/</link>
+      <pubDate>Sat, 09 May 2026 20:05:06 +0000</pubDate>
+      <guid>http://localhost:1313/posts/technical/setting_up_openclaw_on_gcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bypassing_phantombuster_free_plan_export_limit</title>
+      <link>http://localhost:1313/posts/technical/bypassing_phantombuster_free_plan_export_limit/</link>
+      <pubDate>Sat, 17 Jan 2026 00:23:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/technical/bypassing_phantombuster_free_plan_export_limit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ffmpeg_audio_use_cases</title>
+      <link>http://localhost:1313/posts/technical/ffmpeg/ffmpeg_audio_use_cases/</link>
+      <pubDate>Thu, 11 Sep 2025 21:45:25 +0100</pubDate>
+      <guid>http://localhost:1313/posts/technical/ffmpeg/ffmpeg_audio_use_cases/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ffmpeg_video_use_cases</title>
+      <link>http://localhost:1313/posts/tutorial/ffmpeg/ffmpeg_video_use_cases/</link>
+      <pubDate>Thu, 11 Sep 2025 21:44:30 +0100</pubDate>
+      <guid>http://localhost:1313/posts/tutorial/ffmpeg/ffmpeg_video_use_cases/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ffmpeg_overview</title>
+      <link>http://localhost:1313/posts/tutorial/ffmpeg/ffmpeg_overview/</link>
+      <pubDate>Thu, 11 Sep 2025 21:42:33 +0100</pubDate>
+      <guid>http://localhost:1313/posts/tutorial/ffmpeg/ffmpeg_overview/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ffmpeg_use_cases_for_audio</title>
+      <link>http://localhost:1313/posts/technical/ffmpeg_use_cases/</link>
+      <pubDate>Tue, 09 Sep 2025 20:43:06 +0100</pubDate>
+      <guid>http://localhost:1313/posts/technical/ffmpeg_use_cases/</guid>
+      <description>&lt;p&gt;FFmpeg is one of the most important tools used today&lt;/p&gt;&#xA;&lt;p&gt;But to truly understand how you can use fffmpeg in your daily live. You should know some brief concepts and knowledge to help you in making informed decisions when working with audio data.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Audio extraction from video&lt;/li&gt;&#xA;&lt;li&gt;Converting from one audio format to another&lt;/li&gt;&#xA;&lt;li&gt;Resampling&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;dd&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Video&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Decoding, encoding, transcoding: Supports almost every major codec (H.264, HEVC, VP9, AV1, MPEG-2, ProRes, etc.).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The_transformer</title>
+      <link>http://localhost:1313/posts/technical/the_transformer/</link>
+      <pubDate>Thu, 04 Sep 2025 12:25:12 +0100</pubDate>
+      <guid>http://localhost:1313/posts/technical/the_transformer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Memory</title>
+      <link>http://localhost:1313/posts/tutorial/chess_buddy/memory/</link>
+      <pubDate>Sun, 31 Aug 2025 19:52:44 +0100</pubDate>
+      <guid>http://localhost:1313/posts/tutorial/chess_buddy/memory/</guid>
+      <description>&lt;p&gt;Memory is an important of an agentic application. To address this, langgraph provides two forms of storage; short-form and long-term.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Short-term Memory: This involves using persisting data across invocations of your agent or workflow.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Redux_tutorial</title>
+      <link>http://localhost:1313/posts/technical/redux_tutorial/</link>
+      <pubDate>Fri, 29 Aug 2025 16:06:57 +0100</pubDate>
+      <guid>http://localhost:1313/posts/technical/redux_tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The_evolution_of_RAG</title>
+      <link>http://localhost:1313/posts/technical/the_evolution_of_rag/</link>
+      <pubDate>Mon, 25 Aug 2025 13:27:10 +0100</pubDate>
+      <guid>http://localhost:1313/posts/technical/the_evolution_of_rag/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How_is_audio_data_transformed_and_recovered</title>
+      <link>http://localhost:1313/posts/technical/how_is_audio_data_transformed_and_recovered/</link>
+      <pubDate>Mon, 25 Aug 2025 13:22:44 +0100</pubDate>
+      <guid>http://localhost:1313/posts/technical/how_is_audio_data_transformed_and_recovered/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Building_an_AI_Agent</title>
+      <link>http://localhost:1313/posts/tutorial/building_an_ai_agent/</link>
+      <pubDate>Mon, 25 Aug 2025 13:16:27 +0100</pubDate>
+      <guid>http://localhost:1313/posts/tutorial/building_an_ai_agent/</guid>
+      <description></description>
+    </item>
     <item>
       <title>My greatest discovery</title>
       <link>http://localhost:1313/posts/personal/my_greatest_discovery/</link>
@@ -20,7 +132,56 @@
       <link>http://localhost:1313/posts/personal/ada_and_linus/</link>
       <pubDate>Sun, 27 Jul 2025 20:32:40 +0100</pubDate>
       <guid>http://localhost:1313/posts/personal/ada_and_linus/</guid>
-      <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/linus.jpeg&#34;&#xA;    alt=&#34;A picture of Linus Torvalds from wikipedia&#34; width=&#34;303&#34; height=&#34;319&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Linus Torvalds&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/ada.jpg&#34;&#xA;    alt=&#34;A picture of Ada Lovelace from wikipedia&#34; width=&#34;303&#34; height=&#34;319&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Ada Lovelace&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Recently, I was working on a project which involved reporting on a major historical figure. Naturally, I took it as an opportunity to research two figures who I had always been intrigued by; Ada Lovelace and Linus Torvalds.&lt;/p&gt;&#xA;&lt;p&gt;Let me start by saying, they are absolute f**king legends. Both started out their interests in their early years, and their contribution to the field of computer science is unparalleled by only a few.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/images/linus.jpeg&#34; alt=&#34;A picture of Linus Torvalds from wikipedia&#34; width=&#34;303&#34; height=&#34;319&#34;&gt;&#xD;&#xA;  &lt;figcaption&gt;&lt;h4&gt;Linus Torvalds&lt;/h4&gt;&lt;/figcaption&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/images/ada.jpg&#34; alt=&#34;A picture of Ada Lovelace from wikipedia&#34; width=&#34;303&#34; height=&#34;319&#34;&gt;&#xD;&#xA;  &lt;figcaption&gt;&lt;h4&gt;Ada Lovelace&lt;/h4&gt;&lt;/figcaption&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Recently, I was working on a project which involved reporting on a major historical figure. Naturally, I took it as an opportunity to research two figures who I had always been intrigued by; Ada Lovelace and Linus Torvalds.&lt;/p&gt;&#xA;&lt;p&gt;Let me start by saying, they are absolute f**king legends. Both started out their interests in their early years, and their contribution to the field of computer science is unparalleled by only a few.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How low can one go</title>
+      <link>http://localhost:1313/posts/technical/how_low_can_one_go/</link>
+      <pubDate>Sun, 27 Jul 2025 20:27:34 +0100</pubDate>
+      <guid>http://localhost:1313/posts/technical/how_low_can_one_go/</guid>
+      <description>&lt;p&gt;Naturally, there comes a point in every serious programmer&amp;rsquo;s life, there is a question where we ask, what is the lowest level language we can work on. Well, I&amp;rsquo;ve taken it upon myself to research them. Since, I am learning C++ at the moment, that would definitely be my favourite.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3_graph_state</title>
+      <link>http://localhost:1313/posts/tutorial/chess_buddy/3_graph_state/</link>
+      <pubDate>Thu, 24 Jul 2025 22:39:55 +0100</pubDate>
+      <guid>http://localhost:1313/posts/tutorial/chess_buddy/3_graph_state/</guid>
+      <description>&lt;p&gt;In our previous part, I discussed***.&#xA;Now we can create the graph of our app. This is the most important part of the project*.&#xA;Langgraph provides a low-level architecure through the graph API to build agents and workflows. This API consists of three components:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;State: This is a schema that defines all the necessary data that will need to be tracked throughout our workflow/agent. For example: if we are to define a schema for a research agent. It will act as a single source of truth for our application.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;class Schema(MessagesState):&#xD;&#xA;    board: Board&#xD;&#xA;    tool_list: list[BaseTool]&#xD;&#xA;    llm: Any&#xD;&#xA;    played: bool = False&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In the above, we defined two schemas. One to handle our input/output data, and the other to handle the data passed between the internal nodes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WRO</title>
+      <link>http://localhost:1313/posts/personal/wro/</link>
+      <pubDate>Thu, 24 Jul 2025 11:46:59 +0100</pubDate>
+      <guid>http://localhost:1313/posts/personal/wro/</guid>
+      <description>&lt;p&gt;A year ago, I took this picture to show my progress in building an arduino-powered autonomous vehicle. On the outside, it looked finished. However, it was nowhere close to complete. Furthermore, only three days remained before the WRO Nationals, and I still had nothing functional to show my team.&#xA;At this point I was tired, it seemed everytime I fixed one issue, another surfaced. If the car was not spinning in a circle, the ultrasonic sensors where reading nonsensical values or the motor driver decided it was time to die.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Super-duper-hert</title>
+      <link>http://localhost:1313/posts/technical/the_super_duper_herts/</link>
+      <pubDate>Thu, 24 Jul 2025 11:35:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/technical/the_super_duper_herts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2_augmented_llm</title>
+      <link>http://localhost:1313/posts/tutorial/chess_buddy/2_augmented_llm/</link>
+      <pubDate>Wed, 23 Jul 2025 22:34:25 +0100</pubDate>
+      <guid>http://localhost:1313/posts/tutorial/chess_buddy/2_augmented_llm/</guid>
+      <description>&lt;p&gt;ht into creating our agent, it is important to address th&#xA;Though we could go rige augmented llm.&#xA;We can augment our llm by providing it with tools, and data sources it will need to perform the tasks we ask of it. Thankfully, langchain already provides abstractions for us to this. In this section, we will create the tools that we need for chess buddy and test them.&lt;/p&gt;&#xA;&lt;p&gt;Create a folder named &lt;code&gt;class_tools&lt;/code&gt; and for each file place.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Intro</title>
+      <link>http://localhost:1313/posts/tutorial/chess_buddy/1_intro/</link>
+      <pubDate>Wed, 23 Jul 2025 21:59:22 +0100</pubDate>
+      <guid>http://localhost:1313/posts/tutorial/chess_buddy/1_intro/</guid>
+      <description>&lt;p&gt;Langgraph has grown to one of the most important frameworks in the artificial Intelligence space. It&amp;rsquo;s parent, langchain was initially created for developers to create applications which require augmentation of LLMs with various data sources.&lt;/p&gt;&#xA;&lt;p&gt;Langgraph, however, has quickly become popular framework ifor it&amp;rsquo;s low-level abstractions and it&amp;rsquo;s versatility in creating applications involving workflows to AI agents.&lt;/p&gt;&#xA;&lt;p&gt;In this tutorial series, I will be creating a chess chatbot similar to &amp;ldquo;Chess Master&amp;rdquo; on Google&amp;rsquo;s gemini. I believe it is a great project that will allow us to address all various aspects of the framework, while still being a fun and interesting use case.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The unmarked cohort of programmers</title>
+      <link>http://localhost:1313/posts/personal/the_unmarked_cohort_of_programmers/</link>
+      <pubDate>Tue, 22 Jul 2025 21:34:41 +0100</pubDate>
+      <guid>http://localhost:1313/posts/personal/the_unmarked_cohort_of_programmers/</guid>
+      <description>&lt;p&gt;A lot of things are uncertain in our world today; will we get wiped out by climate change in the next 50 years?, can we eventually colonize mars? or would we be able to make it there before a nuclear war breaks out?. Nevertheless, one thing is as certain as rain, programmers will eventually be referred to as pre-LLM and post-LLM. Just like my parents let me know about life before computers, so are the latter group of programmers going to drill into our heads the golden days of stackOverflow and google search.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My thoughts on the african AI space</title>
@@ -48,6 +209,34 @@
       <link>http://localhost:1313/posts/personal/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/personal/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>chat ui</title>
+      <link>http://localhost:1313/posts/tutorial/chess_buddy/5_chat_ui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tutorial/chess_buddy/5_chat_ui/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>final</title>
+      <link>http://localhost:1313/posts/tutorial/chess_buddy/7_final/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tutorial/chess_buddy/7_final/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>nodes and edges</title>
+      <link>http://localhost:1313/posts/tutorial/chess_buddy/4_nodes_and_edges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tutorial/chess_buddy/4_nodes_and_edges/</guid>
+      <description>&lt;p&gt;Before we begin writing our node and edges logic, let us define some chess utilties that we will be needing. Define a file named &lt;code&gt;utils&lt;/code&gt; and place the below functions inside.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;def execute_play(notation: str, board:Board):&#xD;&#xA;    uci = board.push_san(notation).uci()&#xD;&#xA;    return f&amp;#34;Human Player Move \n SAN: {notation} \n UCI:{uci}&amp;#34;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;def execute_computer_play(board: Board) :&#xD;&#xA;    if board.legal_moves:&#xD;&#xA;        move = random.choice(list(board.legal_moves))&#xD;&#xA;        san_notation = board.san(move)&#xD;&#xA;        board.push(move)&#xD;&#xA;        uci_notation = move.uci()&#xD;&#xA;        return f&amp;#34;Computer Play Move \n SAN: {san_notation} \n UCI:{uci_notation}&amp;#34;&#xD;&#xA;    return None&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;def check_board_state(board: Board):&#xD;&#xA;    if board.is_checkmate():&#xD;&#xA;        board.reset()&#xD;&#xA;        return &amp;#34;Checkmate: Game Over&amp;#34;&#xD;&#xA;    elif board.is_stalemate():&#xD;&#xA;        board.reset()&#xD;&#xA;        return &amp;#34;Stalemate: Game Over&amp;#34;&#xD;&#xA;    elif board.is_insufficient_material():&#xD;&#xA;        board.reset()&#xD;&#xA;        return &amp;#34;Draw: Insufficient Material&amp;#34;&#xD;&#xA;    elif board.is_fifty_moves():&#xD;&#xA;        board.reset()&#xD;&#xA;        return &amp;#34;Draw: Fifty-move rule&amp;#34;&#xD;&#xA;    elif board.is_repetition():&#xD;&#xA;        board.reset()&#xD;&#xA;        return &amp;#34;Draw: Threefold repetition&amp;#34;&#xD;&#xA;    elif board.is_seventyfive_moves():&#xD;&#xA;        return &amp;#34;Draw: Seventy-five move rule&amp;#34;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;def check_valid_play(notation:str, board:Board):&#xD;&#xA;    &amp;#34;&amp;#34;&amp;#34;&#xD;&#xA;    Checks the validity of a chess SAN or UCI notation&#xD;&#xA;    &#xD;&#xA;    Args: A chess notation&#xD;&#xA;    &#xD;&#xA;    &amp;#34;&amp;#34;&amp;#34;&#xD;&#xA;    try:&#xD;&#xA;        move = board.parse_san(notation)&#xD;&#xA;        if move in board.legal_moves:&#xD;&#xA;            return True, None&#xD;&#xA;        else:&#xD;&#xA;            return False, &amp;#34;Move not found in legal moves&amp;#34;&#xD;&#xA;    except InvalidMoveError:&#xD;&#xA;        return False, &amp;#34;Move is an invalid move&amp;#34;&#xD;&#xA;    except IllegalMoveError:&#xD;&#xA;        return False, &amp;#34;Move is an illegal move&amp;#34;&#xD;&#xA;    except AmbiguousMoveError:&#xD;&#xA;        return False, &amp;#34;Move is an ambiguous move&amp;#34;&#xD;&#xA;        &#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>tests</title>
+      <link>http://localhost:1313/posts/tutorial/chess_buddy/6_tests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tutorial/chess_buddy/6_tests/</guid>
       <description></description>
     </item>
   </channel>
