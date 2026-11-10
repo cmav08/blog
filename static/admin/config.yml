@@ -1,0 +1,71 @@
+backend:
+  name: git-gateway
+  branch: main
+
+site_url: https://cmav08.github.io/blog/
+display_url: https://cmav08.github.io/blog/
+
+media_folder: static/images/uploads
+public_folder: /blog/images/uploads
+
+collections:
+  - name: personal
+    label: Personal
+    folder: content/posts/Personal
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---"]
+    slug: "{{slug}}"
+    fields: &post_fields
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: date, widget: datetime, required: false }
+      - { label: Draft, name: draft, widget: boolean, default: true }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Theme, name: theme, widget: string, required: false }
+      - { label: Body, name: body, widget: markdown }
+  - name: technical
+    label: Technical
+    folder: content/posts/Technical
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---"]
+    slug: "{{slug}}"
+    fields: *post_fields
+  - name: technical-ffmpeg
+    label: Technical - FFmpeg
+    folder: content/posts/Technical/ffmpeg
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---"]
+    slug: "{{slug}}"
+    fields: *post_fields
+  - name: tutorial
+    label: Tutorial
+    folder: content/posts/Tutorial
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---"]
+    slug: "{{slug}}"
+    fields: *post_fields
+  - name: tutorial-chess-buddy
+    label: Tutorial - Chess Buddy
+    folder: content/posts/Tutorial/chess_buddy
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---"]
+    slug: "{{slug}}"
+    fields: *post_fields
+  - name: tutorial-ffmpeg
+    label: Tutorial - FFmpeg
+    folder: content/posts/Tutorial/ffmpeg
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---"]
+    slug: "{{slug}}"
+    fields: *post_fields

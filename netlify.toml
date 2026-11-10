@@ -1,0 +1,7 @@
+[build]
+command = 'hugo --environment netlify --minify --baseURL "$URL/"'
+publish = "public"
+
+[build.environment]
+HUGO_VERSION = "0.147.3"
+HUGO_EXTENDED = "true"

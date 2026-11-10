@@ -1,9 +1,9 @@
-+++
-date = "2026-07-03T22:00:14+01:00"
-draft = true
-title = "Building_a_gdrive_document_processing_pipeline_with_redis_queue_and_fastapi"
-tags = []
-+++
+---
+date: "2026-07-03T22:00:14+01:00"
+draft: true
+title: "Building_a_gdrive_document_processing_pipeline_with_redis_queue_and_fastapi"
+tags: []
+---
 
 Table of Content
 

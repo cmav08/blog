@@ -1,8 +1,8 @@
-+++
-date = '2025-07-24T11:46:59+01:00'
-draft = true
-title = 'WRO'
-+++
+---
+date: "2025-07-24T11:46:59+01:00"
+draft: true
+title: "WRO"
+---
 
 A year ago, I took this picture to show my progress in building an arduino-powered autonomous vehicle. On the outside, it looked finished. However, it was nowhere close to complete. Furthermore, only three days remained before the WRO Nationals, and I still had nothing functional to show my team.
 At this point I was tired, it seemed everytime I fixed one issue, another surfaced. If the car was not spinning in a circle, the ultrasonic sensors where reading nonsensical values or the motor driver decided it was time to die.

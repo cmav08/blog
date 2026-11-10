@@ -1,8 +1,8 @@
-+++
-date = '2025-07-24T22:39:55+01:00'
-draft = true
-title = '3_graph_state'
-+++
+---
+date: "2025-07-24T22:39:55+01:00"
+draft: true
+title: "3_graph_state"
+---
 
 In our previous part, I discussed***. 
 Now we can create the graph of our app. This is the most important part of the project*. 

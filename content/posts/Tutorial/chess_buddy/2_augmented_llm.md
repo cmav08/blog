@@ -1,8 +1,8 @@
-+++
-date = '2025-07-23T22:34:25+01:00'
-draft = true
-title = '2_augmented_llm'
-+++
+---
+date: "2025-07-23T22:34:25+01:00"
+draft: true
+title: "2_augmented_llm"
+---
 ht into creating our agent, it is important to address th
 Though we could go rige augmented llm. 
 We can augment our llm by providing it with tools, and data sources it will need to perform the tasks we ask of it. Thankfully, langchain already provides abstractions for us to this. In this section, we will create the tools that we need for chess buddy and test them.

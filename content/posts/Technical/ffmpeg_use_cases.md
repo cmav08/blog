@@ -1,8 +1,8 @@
-+++
-date = '2025-09-09T20:43:06+01:00'
-draft = true
-title = 'Ffmpeg_use_cases_for_audio'
-+++
+---
+date: "2025-09-09T20:43:06+01:00"
+draft: true
+title: "Ffmpeg_use_cases_for_audio"
+---
 
 FFmpeg is one of the most important tools used today
 

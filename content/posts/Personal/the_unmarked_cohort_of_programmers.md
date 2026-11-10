@@ -1,8 +1,8 @@
-+++
-date = '2025-07-22T21:34:41+01:00'
-draft = true
-title = 'The unmarked cohort of programmers'
-+++
+---
+date: "2025-07-22T21:34:41+01:00"
+draft: true
+title: "The unmarked cohort of programmers"
+---
 
 A lot of things are uncertain in our world today; will we get wiped out by climate change in the next 50 years?, can we eventually colonize mars? or would we be able to make it there before a nuclear war breaks out?. Nevertheless, one thing is as certain as rain, programmers will eventually be referred to as pre-LLM and post-LLM. Just like my parents let me know about life before computers, so are the latter group of programmers going to drill into our heads the golden days of stackOverflow and google search.
 

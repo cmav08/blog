@@ -1,0 +1,4 @@
+customJS = [
+  "https://identity.netlify.com/v1/netlify-identity-widget.js",
+  "js/netlify-identity-redirect.js",
+]

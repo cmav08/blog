@@ -1,7 +1,7 @@
-+++
-draft = true
-title = 'nodes and edges'
-+++
+---
+draft: true
+title: "nodes and edges"
+---
 
 Before we begin writing our node and edges logic, let us define some chess utilties that we will be needing. Define a file named `utils` and place the below functions inside.
 

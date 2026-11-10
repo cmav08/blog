@@ -1,10 +1,9 @@
-+++
-date = "2025-07-23T21:59:22+01:00"
-draft = true
-title = "Intro"
-tags = [ "AI", "AI Agent",]
-
-+++
+---
+date: "2025-07-23T21:59:22+01:00"
+draft: true
+title: "Intro"
+tags: ["AI", "AI Agent"]
+---
 
 Langgraph has grown to one of the most important frameworks in the artificial Intelligence space. It's parent, langchain was initially created for developers to create applications which require augmentation of LLMs with various data sources.
 
