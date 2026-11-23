@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+{{- partial "header.html" . -}}
+
+<body>
+    <div class="content">
+        {{- partial "head.html" . -}}
+        {{- block "main" . }}{{- end }}
+        {{- partial "footer.html" . -}}
+    </div>
+
+    <!-- Netlify Identity -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="{{ " js/netlify-identity-redirect.js" | relURL }}"></script>
+</body>
+
+</html>
