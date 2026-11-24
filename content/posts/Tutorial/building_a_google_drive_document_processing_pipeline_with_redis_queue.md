@@ -1,9 +1,9 @@
----
-date: "2026-07-03T22:00:14+01:00"
-draft: true
-title: "Building_a_gdrive_document_processing_pipeline_with_redis_queue_and_fastapi"
-tags: []
----
++++
+date = "2026-07-03T22:00:14+01:00"
+draft = true
+title = "Building_a_gdrive_document_processing_pipeline_with_redis_queue_and_fastapi"
+tags = []
++++
 
 Table of Content
 
@@ -277,7 +277,6 @@ if __name__ == "__main__":
     )
 
     start_job_pipeline(files[0]["id"])
-
 ```
 
 To then interact with the queue, type in your terminal; 
@@ -422,8 +421,36 @@ In this function, we use pymupdf4llm to extract the pdf content and convert it i
 And finally persistence in the vector store
 
 ```
-from langchain_qdrant import QdrantVectorStore
-from qdrant_client import QdrantClient
+from langchain_core.documents import Document
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_text_splitters import (
+    MarkdownHeaderTextSplitter,
+    RecursiveCharacterTextSplitter,
+)
+
+def get_embeddings(model_name="sentence-transformers/all-MiniLM-L6-v2"):
+    embeddings = HuggingFaceEmbeddings(
+        model_name=model_name,
+        model_kwargs={"device": "cpu"},
+        encode_kwargs={"normalize_embeddings": True},
+    )
+    return embeddings
+
+
+def get_vector_store(collection_name="my_collection", dir="./chroma_langchain_db"):
+    embeddings = get_embeddings()
+    vector_store = Chroma(
+        collection_name=collection_name,
+        embedding_function=embeddings,
+        persist_directory=dir,
+    )
+
+    return vector_store
+```
+
+jjjjjj
+
+```
 from langchain_huggingface import HuggingFaceEmbeddings
 
 def store_document(file_id):
@@ -432,19 +459,9 @@ def store_document(file_id):
     print(f"Starting ingestion of documents with id {file_id}")
 
     job = get_current_job()
-    file_bytes = job.dependencies.result
+    chunks = job.dependencies.result
 
-    embeddings = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2",
-    model_kwargs={'device': 'cpu'},      # Change to 'cuda' or 'mps' if you have a GPU
-    encode_kwargs={'normalize_embeddings': True} # Normalizes vectors for cosine similarity
-)
-
-    vector_store = Chroma(
-    collection_name="example_collection",
-    embedding_function=embeddings,
-    persist_directory="./chroma_langchain_db",
-)
+    vector_store = get_vector_store()
     vector_store.add_documents(chunks)
     print(f"Finished ingestion of documents with id {file_id}")
 ```

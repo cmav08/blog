@@ -13,6 +13,8 @@ pygmentscodefencesguesssyntax = true
 	mode="dark"
 	useCDN=false
 	subtitle = "Domain Expansion: pages of a thousand ideas"
+	katex=true
+	customCSS=["css/interactive-plots.css"]
 
 [[params.social]]
 name = "GitHub"

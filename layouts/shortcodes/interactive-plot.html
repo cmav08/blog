@@ -1,0 +1,33 @@
+<div class="interactive-plot" id="{{ .Get "id" | default "plot" }}"
+     data-omega="{{ .Get "omega" | default "2" }}"
+     data-damping="{{ .Get "damping" | default "0.1" }}">
+  {{ with .Get "title" }}<h3>{{ . }}</h3>{{ end }}
+  <div class="plot-controls">
+    <label>
+      Angular frequency
+      <input class="plot-slider" data-control="omega" type="range" min="0.5" max="5" step="0.1"
+             value="{{ .Get "omega" | default "2" }}">
+      <output data-output="omega">{{ .Get "omega" | default "2" }}</output>
+    </label>
+    <label>
+      Damping
+      <input class="plot-slider" data-control="damping" type="range" min="0" max="0.8" step="0.01"
+             value="{{ .Get "damping" | default "0.1" }}">
+      <output data-output="damping">{{ .Get "damping" | default "0.1" }}</output>
+    </label>
+  </div>
+  <div class="plot-canvas" aria-label="Interactive plot"></div>
+</div>
+
+<script>
+  (function () {
+    var plotScript = document.querySelector('script[data-interactive-plots]');
+    if (!plotScript) {
+      plotScript = document.createElement("script");
+      plotScript.src = "{{ "js/interactive-plots.js" | relURL }}";
+      plotScript.defer = true;
+      plotScript.dataset.interactivePlots = "true";
+      document.body.appendChild(plotScript);
+    }
+  }());
+</script>
