@@ -1,7 +1,7 @@
 ---
-date: "2026-11-24T19:25:31+01:00"
-draft: true
-title: "Interactive scientific demo"
+title: Interactive scientific demo
+date: 2026-11-24T19:25:31+01:00
+draft: false
 ---
 
 This page demonstrates an interactive scientific plot embedded in the CMS Markdown editor.
